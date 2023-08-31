@@ -1,4 +1,4 @@
-locals {
+/*locals {
   cloudtrail_common_tags = merge(local.aws_thrifty_common_tags, {
     service = "AWS/CloudTrail"
   })
@@ -128,3 +128,4 @@ control "multiple_regional_trails" {
       and not is_organization_trail;
   EOQ
 }
+*/
